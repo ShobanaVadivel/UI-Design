@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirius UI Task</title>
+    <link rel="stylesheet" href="./style.css">
+   
+
+</head>
+<body>
+    <div class="page">
+    <div class="header">
+        Book now to get exciting travel deals. Upto 40% off on credit card payments<br>
+        <span class="offertime">Offers ends on 10th July 6pm</span>
+    </div>
+      <div class="nav">
+        <ul>
+          <li>WEATHER</li>
+          <li>DESTINATIONS</li>
+          <li>GET A QUOTE</li>
+        </ul>
+      </div>
+      <div class="content">
+        <div><img class="case" src="./case.png"></div>
+        <div class="text">
+            <span class="life">Life is short and the world is wide!</span><br>
+            <span class="book">stay at the comfort of your homes and book a trip to travel after the post pandemic era.</span>
+            <br>
+            <button class="plan">PLAN A TRIP</button>
+        </div>
+
+        </div>
+        <br>
+        <div  class="weather">
+            THE WEATHER CHANNEL
+        </div>
+        <div id="weather1">
+        </div>          
+
+       
+        <br>
+
+        <div class="destination">
+            Featured Destinations
+        </div>
+        <div id="destination1">
+
+        </div>
+        <br>
+
+        <div>
+            <img class="trip" src="./trip.png">
+        </div>
+        <form class="form" id="form" onsubmit="validateInput()">
+        <div class="form-control">
+            <h2 class="head">Travelling as a group? Get a Quote</h2>
+            <div class="input">
+            <label for="name">Your Name</label>
+            <input class="size" id="name" type="text" name="name" required>
+            <small>Name is required</small>
+            
+            <label for="num">Contact No</label>
+            <input  class="size" id="num" type="number" name="num" maxlength="10" required>
+            <small>Contact No is required</small>
+            
+            <label for="email">Email</label>
+            <input  class="size" id="email" type="email" name="email" required>
+            <small>Email is required</small>
+            <div class="">
+            <button id ="btn" class="btn" type="submit">Submit</button>
+            </div>
+           </div>
+        </div>
+    </form>
+        <br>
+        <div class="footer">
+            <div>
+                <h4>Tripzone</h4>
+                <a>About</a>
+                <a>Awards</a>
+                <a>Contact Us</a>
+                <a>Feedback</a>
+            
+            </div>
+            <div>
+                <h4>Main Offices</h4>
+                <a>The United States</a>
+                <a>India</a>
+                <a>Brazil</a>
+                <a>canada</a>
+            </div>
+            <div>
+                <h4>Sub Offices</h4>
+                <a>Australia</a>
+                <a>England</a>
+                <a>France</a>
+                <a>Germany</a>
+            </div>
+            <div>
+                <h4>Disclaimer</h4>
+                <p>This layout is created as a part of sirius UI Requirements.<br>
+                All the above content has no direct relation with Sirius<br>business.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+        <script src="./script.js"> </script>
+        <script src="./script1.js"> </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .header{
+    text-align:center;
+    background-image: linear-gradient(to right top, #010305, #071118, #0c1926, #0d2135, #0f2945);
+    color:white;
+    padding:10px;
+    width: 80%;
+    margin-left:10%;
+  }
+  .offertime{
+    font-weight:bold;
+    text-align:center;
+  }
+  .nav ul{
+    width: 80%;
+    list-style:none;
+    display:flex;
+    margin-left: 50%;
+    gap:30px;  
+  }
+  .case{
+      width:30em;
+      height: 600px;
+  }
+  .content{
+    width: 80%;
+    display:flex;
+    margin-left:10%;
+    gap:10%
+      
+       }
+.text{
+    padding-top:10em;
+        
+       }
+.life{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size:3em;
+    } 
+    .book{
+        font-size: 20px;
+        margin-top:15px;
+    }
+    .plan{
+        
+        margin-top: 15px;
+        padding: 10px 15px;
+        color:white;
+        background-image: linear-gradient(to right top, #010305, #071118, #0c1926, #0d2135, #0f2945);
+    }
+    .weather{
+        width: 80%;
+        margin-left:10%;
+        font-weight: bold;
+        font-size: 25px;
+        background-color: #123052;
+        padding: 15px;
+        color:white; 
+     }
+    .destination{
+        width: 80%;
+        margin-top: 20px;
+        margin-left:10%;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 15px;
+        color:#123052; 
+     }
+
+    .trip{
+        margin-left:10%;
+        width: 83%;
+        height: 400px;
+    }
+    .form-control{
+        width: 80%;
+        padding-left:30%;
+        color:#123052 ;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+
+    }
+    .size{
+        width: 50%;
+        height: 50px;
+    }
+    .btn{
+        width: 10em;
+        height: 50px;    
+        margin-left:20%;    
+        background-image: linear-gradient(to right top, #010305, #071118, #0c1926, #0d2135, #0f2945);
+        color:white;
+
+    }
+    .footer{
+        width: 85%;
+        margin-left: 10%;
+        display: flex;
+        background-image: linear-gradient(to right top, #010305, #071118, #0c1926, #0d2135, #0f2945);
+        color:white;
+        gap:8em;
+        padding: 5px;
+    }
+    .footer a{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .form-control small{
+        color: red;
+        
+    }
+    #weather1 {
+        display: flex;
+        width: 80%;
+        margin-left:15%;
+        text-align: center;  
+        color: white;            
+    }
+    #weather1 div:nth-child(1n+0) {
+        background: #0D7E88;
+      }
+    #weather1 div:nth-child(2n+0) {
+        background: #D09378;
+      }
+
+    #weather1 div:nth-child(3n+0) {
+        background: #405B5D;
+      }
+    #weather1 div:nth-child(4n+0) {
+        background: #74A748;
+      }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .containerPic{        
+        width: 15em;
+        height: 200px;
+        color: linear-gradient(to right top, #010305, #071118, #0c1926, #0d2135, #0f2945);
+        background-image :white;
+        
+    }
+    .containerPic p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #destination1{
+        display: flex;
+        width: 80%;
+        margin-left:13%;
+        gap: 15px;
+        text-align: center; 
+        overflow: scroll;
+    }
+    .container img{        
+        width: 15em;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+
+      @media  all and (max-width:768px)  {
+        
+
+          .nav ul{
+              flex-wrap: wrap;  
+          }
+          .nav ul{
+           width: 100%;  
+        }
+        .header{
+            flex-wrap: wrap;
+        }
+          .header{
+            width: 100%;                     
+                       
+          }
+          .content{
+              flex-wrap: wrap;
+
+          }
+          .content{
+              width: 100%;
+          }
+
+          .trip{
+              width: 100%;
+          }
+          .footer{
+              flex-wrap: wrap;
+          }
+
+          .footer{
+            width: 100%;
+                       
+        }
+        #weather1 {
+            flex-wrap: wrap;
+        }
+        #weather1 {
+            width: 100%;
+        }
+        #destination1{
+            flex-wrap: wrap;
+        }
+        #destination1{
+            width: 100%;
+        }
+
+    }
+
+   
+    
